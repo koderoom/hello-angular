@@ -2,11 +2,6 @@
     height: 100vh;
 }
 
-.make-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .beautify{
     background: royalblue;

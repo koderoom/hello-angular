@@ -13,3 +13,8 @@
 ```
     ng g c cdac
 ```
+
+
+## REF UPLOAD ##
+* ng build --prod --base-href "https://koderoom.github.io/hello-angular/"
+* npx ngh --dir=dist/HelloAngular

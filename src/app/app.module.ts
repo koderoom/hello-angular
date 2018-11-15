@@ -15,6 +15,6 @@ import { CdacComponent } from './cdac/cdac.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [XyzComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

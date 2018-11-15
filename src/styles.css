@@ -9,3 +9,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.full-screen {
+    height: 200px;
+}
+
+
+.beautify{
+    background: royalblue;
+    color: ghostwhite;
+    font-size: 40px;
+}

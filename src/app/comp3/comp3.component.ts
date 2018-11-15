@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comp3.component.html',
   styleUrls: ['./comp3.component.css']
 })
-export class Comp3Component implements OnInit {
+export class Comp3Component  {
+  title = 'Post Something';
 
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }

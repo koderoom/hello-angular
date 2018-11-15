@@ -5,11 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comp2.component.html',
   styleUrls: ['./comp2.component.css']
 })
-export class Comp2Component implements OnInit {
+export class Comp2Component  {
 
-  constructor() { }
+  id = 1;
+  name = 'CDAC';
+  location = 'Kharghar';
+  capital = false;
 
-  ngOnInit() {
-  }
+  mumbaiRef = {
+    'star' : 'Aamir',
+    'superstar' : 'Salman',
+    'movie' : 'TOH'
+  };
+
 
 }

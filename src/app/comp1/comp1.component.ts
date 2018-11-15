@@ -5,11 +5,20 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comp1.component.html',
   styleUrls: ['./comp1.component.css']
 })
-export class Comp1Component implements OnInit {
+export class Comp1Component  {
 
-  constructor() { }
+  title = 'Projec Home';
 
-  ngOnInit() {
-  }
+
+  id = 1;
+  name = 'CDAC';
+  location = 'Kharghar';
+  capital = false;
+
+  mumbaiRef = {
+    'star' : 'Aamir',
+    'superstar' : 'Salman',
+    'movie' : 'TOH'
+  };
 
 }

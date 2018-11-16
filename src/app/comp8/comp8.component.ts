@@ -5,11 +5,26 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comp8.component.html',
   styleUrls: ['./comp8.component.css']
 })
-export class Comp8Component implements OnInit {
+export class Comp8Component  {
+  title = 'Component 8';
+  post = '';
+  postList = [];
 
-  constructor() { }
+  /** MEMBER FUNCTION */
+  postHere() {
 
-  ngOnInit() {
+    const postObject = {};
+    postObject['like'] = 0;
+    postObject['dislike'] = 0;
+    postObject['post'] = this.post;
+    
+    this.postList.splice(0, 0, postObject);
+
+    this.post = '';
   }
 
+
+  likeCount(item) {
+    item.like += 1;
+  }
 }

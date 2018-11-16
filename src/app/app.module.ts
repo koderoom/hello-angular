@@ -13,6 +13,7 @@ import { Comp5Component } from './comp5/comp5.component';
 import { Comp6Component } from './comp6/comp6.component';
 import { Comp7Component } from './comp7/comp7.component';
 import { Comp8Component } from './comp8/comp8.component';
+import { Comp9Component } from './comp9/comp9.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { Comp8Component } from './comp8/comp8.component';
     Comp6Component,
     Comp7Component,
     Comp8Component,
+    Comp9Component,
   ],
   imports: [
     BrowserModule,

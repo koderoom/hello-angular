@@ -27,4 +27,8 @@ export class Comp8Component  {
   likeCount(item) {
     item.like += 1;
   }
+
+  dislikeCount(item) {
+    item.dislike += 1;
+  }
 }

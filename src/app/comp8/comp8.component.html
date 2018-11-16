@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid" *ngIf="postList.length > 0">
     <div class="row mt-1" *ngFor="let item of postList">
       <div class="col-3"></div>
       <div class="col-6" >
@@ -29,7 +29,7 @@
                 <a href="#" (click)="likeCount(item)" class="btn btn-sm btn-secondary">LIKEEEEE
                     <span class="badge badge-light">{{item.like}}</span>
                 </a>
-                <a href="#" class="ml-1 btn btn-sm btn-secondary">DISLIKEEEE
+                <a href="#" (click)="dislikeCount(item)" class="ml-1 btn btn-sm btn-secondary">DISLIKEEEE
                   <span class="badge badge-light">{{item.dislike}}</span>
                 </a>
               </div>
@@ -38,4 +38,14 @@
   
       <div class="col-3"></div>
     </div>
+</div>
+
+<div class="container-fluid" *ngIf="postList.length == 0">
+  <div class="row mt-1">
+    <div class="col-3">    </div>
+    <div class="col-6 h3 text-light rounded bg-secondary make-center" style="height:200px;">    
+      No Post Available
+    </div>
+    <div class="col-3">    </div>
+  </div>
 </div>

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comp8.component.css']
 })
 export class Comp8Component  {
-  title = 'Component 8';
+  title = 'DACBOOK';
   post = '';
   postList = [];
 

@@ -5,11 +5,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comp7.component.html',
   styleUrls: ['./comp7.component.css']
 })
-export class Comp7Component implements OnInit {
+export class Comp7Component  {
 
-  constructor() { }
+  /** DATA MEMBER */
+  postList = [];
 
-  ngOnInit() {
+  /** MEMBER FUNCTION */
+  postHere() {
+    const refDate = new Date();
+    // this.postList.push(refDate.toLocaleTimeString());
+
+    this.postList.splice(0, 0, refDate.toLocaleTimeString());
   }
 
 }

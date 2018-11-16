@@ -5,6 +5,11 @@ body{
     margin: 0px;
 }
 
+.make-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
 .make-center {
     display: flex;

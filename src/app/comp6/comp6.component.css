@@ -1,0 +1,11 @@
+.title {
+    background: royalblue; height: 55px;color:white;
+}
+
+.item {
+    background: cornflowerblue;
+    color: white;
+    height: 55px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}

@@ -15,6 +15,10 @@ export class Comp6Component {
     for (let i = 0; i < 10; i++) {
       let ref = {'id' : i, 'post' : 'FRIDAY ' + i};
 
+      if (i % 2 === 0) {
+        ref['display'] = true;
+      }
+
       this.list.push(ref);
     }
   }
